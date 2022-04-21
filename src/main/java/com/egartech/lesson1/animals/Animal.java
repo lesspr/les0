@@ -5,6 +5,10 @@ public class Animal {
     protected String color;
     protected int age;
 
+    public String getName() {
+        return name;
+    }
+
     public Animal(String name, String color, int age) {
         this.name = name;
         this.color = color;
@@ -17,6 +21,10 @@ public class Animal {
 
     public void voice() {
         System.out.println(name + " voice");
+    }
+
+    public void hi() {
+        System.out.println(" hi from Animal");
     }
 
 }

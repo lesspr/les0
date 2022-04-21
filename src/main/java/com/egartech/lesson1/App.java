@@ -15,5 +15,10 @@ public class App {
         for (Animal o: catsAndDogs) {
             o.voice();
         }
+
+        System.out.println("Кошку зовут: " + cat.getName());
+
+        cat.hi();
+
     }
 }
